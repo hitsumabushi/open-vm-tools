@@ -84,9 +84,11 @@ open-vm-tools uses the GNU Automake tool for generating Makefiles to build all s
 Getting configure options & help: If you are looking for help or additional settings for the building of this project, the following configure command will display a list of help options: ./configure --help
 Using configure: When using configure in the steps below it is only necessary to call ./configure once unless there was a problem after the first invocation.
 Building Unix user-space programs:
+
 1. autoreconf -i
 2. ./configure
 3. Run "make" to build Unix userland  and kernel
+
 Packaging: If you are interested in creating a Tools package, please see https://sourceforge.net/apps/mediawiki/open-vm-tools/index.php?title=Packaging for more information.
 
 #Getting Involved
